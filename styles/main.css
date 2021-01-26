@@ -1,6 +1,6 @@
 
 body{
-    font-family: Arial, Helvetica, sans-serif;    
+    font-family: Arial, Helvetica, sans-serif;   
 }
 
 /* #nav element style */
@@ -49,24 +49,34 @@ nav a:hover{
 
 /* content style*/
 
-.logo, form{
-    text-align: center;
+.logo{
+    background-color: wheat;
+    position: absolute;
+    top: 150px;
+    width: 300px;
+    
+
 }
 
-.logo{
-    background-color: wheat;;
-}
 
 form{
     background-color: rgb(240, 105, 82);
+    position: absolute;
+    top: 250px;
 }
 
 /* footer style*/
 
+    
+
 .country{
     background-color: turquoise;
+    position: absolute;
+    bottom: 130px;
 }
 
 footer{
     background-color: violet;
+    position: absolute;
+    bottom: 0px;
 }
