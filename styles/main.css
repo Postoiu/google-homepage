@@ -1,6 +1,9 @@
 
 body{
-    font-family: Arial, Helvetica, sans-serif;   
+    font-family: Arial, Helvetica, sans-serif; 
+    margin: 0 auto;
+    padding: 0;
+    border: none;  
 }
 
 /* #nav element style */
@@ -111,11 +114,16 @@ form input:hover{
 .country{
     background-color: turquoise;
     position: absolute;
-    bottom: 130px;
+    bottom: 100px;
+    width: 100%;
 }
 
 footer{
     background-color: violet;
     position: absolute;
     bottom: 0px;
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
 }
